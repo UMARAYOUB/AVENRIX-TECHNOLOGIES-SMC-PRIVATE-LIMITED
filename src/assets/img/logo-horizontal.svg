@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" width="100%" height="100%" aria-label="AVENRIX TECHNOLOGIES Logo">
+  <defs>
+    <!-- Gradation for premium feel matching the logo image -->
+    <linearGradient id="logo-blue-grad-horiz" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C2FF" />
+      <stop offset="30%" stop-color="#0075FF" />
+      <stop offset="100%" stop-color="#0029FF" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(10, 10)">
+    
+    <!-- Logo Symbol (Positioned on the Left, scaled to fit 100x100) -->
+    <g transform="scale(0.42)">
+      <!-- Right Main Gradient Ribbon -->
+      <path d="M 125,50 
+               C 145,20 185,20 205,50 
+               L 310,240 
+               L 260,240 
+               L 180,100 
+               C 175,90 155,90 150,100
+               L 125,150 
+               Z" fill="url(#logo-blue-grad-horiz)" />
+
+      <!-- Inner swoosh / loop of the 'A' crossbar -->
+      <path d="M 102,192 
+               C 120,165 170,160 215,160
+               C 220,160 220,165 215,168
+               C 180,185 140,205 102,192 
+               Z" fill="#0029FF" />
+
+      <!-- Left leg trailing data pixels (horizontal rounded rects) -->
+      <rect x="110" y="70" width="15" height="10" rx="3" fill="#0075FF" />
+      <rect x="90" y="90" width="18" height="10" rx="3" fill="#0075FF" />
+      <rect x="115" y="90" width="12" height="10" rx="3" fill="#00C2FF" />
+      <rect x="70" y="110" width="22" height="10" rx="4" fill="#0075FF" />
+      <rect x="98" y="110" width="30" height="10" rx="4" fill="#0075FF" />
+      <rect x="80" y="130" width="35" height="10" rx="4" fill="#0029FF" />
+      <rect x="120" y="130" width="15" height="10" rx="3" fill="#0075FF" />
+      <rect x="65" y="150" width="15" height="10" rx="3" fill="#0075FF" />
+      <rect x="85" y="150" width="25" height="10" rx="4" fill="#0075FF" />
+      <rect x="110" y="170" width="30" height="10" rx="4" fill="#0075FF" />
+      <rect x="75" y="170" width="28" height="10" rx="4" fill="#0075FF" />
+      <rect x="55" y="170" width="12" height="10" rx="3" fill="#00C2FF" />
+      <rect x="95" y="190" width="40" height="10" rx="4" fill="#0075FF" />
+      <rect x="65" y="190" width="22" height="10" rx="4" fill="#0029FF" />
+      <rect x="45" y="190" width="12" height="10" rx="3" fill="#00C2FF" />
+      <rect x="105" y="210" width="25" height="10" rx="4" fill="#0029FF" />
+      <rect x="85" y="210" width="12" height="10" rx="3" fill="#0075FF" />
+    </g>
+
+    <!-- Wordmark / Corporate Typography (Aligned to the Right of the symbol) -->
+    <g transform="translate(150, 10)">
+      
+      <!-- Company Name 'AVENRIX' -->
+      <g transform="scale(0.68)">
+        <!-- A -->
+        <path d="M 50,75 L 85,0 L 105,0 L 140,75 L 118,75 L 110,55 L 80,55 L 72,75 Z M 84,44 L 106,44 L 95,18 Z" fill="#0F172A" />
+        <!-- V -->
+        <path d="M 148,0 L 170,0 L 195,58 L 220,0 L 242,0 L 206,75 L 184,75 Z" fill="#0F172A" />
+        <!-- E -->
+        <path d="M 252,0 L 312,0 L 312,17 L 274,17 L 274,29 L 306,29 L 306,46 L 274,46 L 274,58 L 314,58 L 314,75 L 252,75 Z" fill="#0F172A" />
+        <!-- N -->
+        <path d="M 326,0 L 348,0 L 392,52 L 392,0 L 412,0 L 412,75 L 392,75 L 346,20 L 346,75 L 326,75 Z" fill="#0F172A" />
+        <!-- R -->
+        <path d="M 426,0 L 476,0 C 496,0 508,10 508,24 C 508,35 498,43 484,46 L 512,75 L 488,75 L 464,48 L 448,48 L 448,75 L 426,75 Z M 448,16 L 448,34 L 472,34 C 482,34 488,30 488,25 C 488,20 482,16 472,16 Z" fill="#0F172A" />
+        <!-- I -->
+        <path d="M 522,0 L 544,0 L 544,75 L 522,75 Z" fill="#0F172A" />
+        
+        <!-- Custom X Accent Symbol -->
+        <!-- Black Left-to-Right diagonal backslash -->
+        <path d="M 556,0 L 576,0 L 634,75 L 614,75 Z" fill="#0F172A" />
+        <!-- Blue crossing slash (extends out-of-bounds top-right and bottom-left) -->
+        <path d="M 560,75 L 580,75 L 648,0 L 628,0 Z" fill="#0055FF" />
+      </g>
+
+      <!-- Sub-label 'TECHNOLOGIES' (Aligned under AVENRIX) -->
+      <g transform="translate(0, 62) scale(0.6)">
+        <!-- Left line -->
+        <line x1="0" y1="-7" x2="50" y2="-7" stroke="#0055FF" stroke-width="4" stroke-linecap="round" />
+        <!-- Word 'TECHNOLOGIES' -->
+        <text x="65" y="3" font-family="'Inter', 'Poppins', 'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#475569" letter-spacing="14.5">TECHNOLOGIES</text>
+        <!-- Right line -->
+        <line x1="520" y1="-7" x2="570" y2="-7" stroke="#0055FF" stroke-width="4" stroke-linecap="round" />
+      </g>
+
+    </g>
+
+  </g>
+</svg>
