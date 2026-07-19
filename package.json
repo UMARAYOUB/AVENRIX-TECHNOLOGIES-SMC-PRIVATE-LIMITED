@@ -1,0 +1,21 @@
+{
+  "name": "avenrix-website",
+  "version": "1.0.0",
+  "description": "Premium Corporate Website for Avenrix Technologies",
+  "main": "src/build.js",
+  "scripts": {
+    "build": "node src/build.js",
+    "start": "npx -y http-server . -p 8080 -c-1"
+  },
+  "keywords": [
+    "avenrix",
+    "corporate",
+    "website",
+    "software"
+  ],
+  "author": "Avenrix Technologies (SMC-Private) Limited",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
